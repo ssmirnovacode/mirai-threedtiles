@@ -14,7 +14,7 @@ export default defineConfig({
   worker: {
     format: 'es',
   },
-  
+
   // Define plugins if any
   plugins: [
     // Example: glsl(), // If using GLSL shaders
@@ -22,18 +22,18 @@ export default defineConfig({
 
   // Configure the development server
   server: {
-    port: 3000,       // Change the port if needed
-    open: true,       // Automatically open the app in the browser
+    port: 3000, // Change the port if needed
+    open: true, // Automatically open the app in the browser
     // proxy: { ... }, // Set up proxy if you're making API calls
   },
 
   // Define build options
   build: {
-    outDir: 'dist',            // Output directory
-    target: 'esnext',          // JavaScript language target
-    sourcemap: true,           // Generate source maps
-    minify: 'esbuild',         // Minifier to use ('esbuild', 'terser', or false)
-    emptyOutDir: true,         // Empty the output directory before building
+    outDir: 'dist', // Output directory
+    target: 'esnext', // JavaScript language target
+    sourcemap: true, // Generate source maps
+    minify: 'esbuild', // Minifier to use ('esbuild', 'terser', or false)
+    emptyOutDir: true, // Empty the output directory before building
     rollupOptions: {
       input: path.resolve(__dirname, 'index.html'), // Entry point
       // You can customize Rollup options here
