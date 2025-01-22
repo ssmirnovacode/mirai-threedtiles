@@ -2,13 +2,14 @@ import { v4 as uuidv4 } from 'uuid';
 
 const workers = [];
 let workerCounter = 0;
+// @keep .
 class SplatsDecoder {
   constructor(gltfLoader, renderer) {
     const self = this;
     self.renderer = renderer;
     self.gltfLoader = gltfLoader;
   }
-
+  //
   parseSplats(arrayBuffer, sceneZupToYUp, meshZUpToYUp, splatsMesh) {
     const self = this;
     return new Promise(async (resolve, reject) => {

@@ -1,7 +1,7 @@
 import { BufferAttribute, InstancedMesh, Matrix4 } from 'three';
 import { FeatureTable, BatchTable } from './FeatureTable';
 import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js';
-
+// @keep .
 class B3DMDecoder {
   constructor(aGltfLoader) {
     this.gltfLoader = aGltfLoader;

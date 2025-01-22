@@ -18,7 +18,7 @@ let concurrentDownloads = 0;
  * The load order is designed for optimal perceived loading speed (nearby tiles are refined first).
  * @class
  */
-// @keep
+// @keep .
 class TileLoader {
   /**
    * Creates a tile loader with a maximum number of cached items and callbacks.

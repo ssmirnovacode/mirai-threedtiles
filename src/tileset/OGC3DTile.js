@@ -14,7 +14,7 @@ import {
   Sphere,
   Float32BufferAttribute,
 } from 'three';
-import { OBB } from '../geometry/obb'; // ok
+import { OBB } from '../geometry/obb'; // ok.
 import { TileLoader } from './TileLoader';
 import { v4 as uuidv4 } from 'uuid';
 import * as path from 'path-browserify';
